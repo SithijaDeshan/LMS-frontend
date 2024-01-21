@@ -8,6 +8,10 @@ import {
     RouterProvider,
 } from "react-router-dom";
 import Login from "./Pages/Login";
+import AdminPanal from "./Pages/admin_panal";
+import AdminPanalUser from "./Pages/admin_panal_user";
+import AdminPaneBooklending from "./Pages/admin_panel_booklending";
+import BookDescription from "./Pages/BookDescription";
 
 const router = createBrowserRouter([
     {
@@ -17,6 +21,22 @@ const router = createBrowserRouter([
     {
         path: "login",
         element: <Login/>,
+    },
+    {
+        path: "admin_panel",
+        element: <AdminPanal/>,
+    },
+    {
+        path: "admin_panel_user",
+        element: <AdminPanalUser/>,
+    },
+    {
+        path: "admin_panel_booklending",
+        element: <AdminPaneBooklending/>,
+    },
+    {
+        path: "BookDescription",
+        element: <BookDescription/>,
     },
 ]);
 
