@@ -9,7 +9,7 @@ function Footerdrk(props) {
                     <div className="w-full justify-between sm:flex sm:items-center sm:justify-between">
                         <img src="/Img/logo.png" className="mr-3 h-6 sm:h-9" style={{ width: '100px', height: 'auto' }}/>
                         <Footer.LinkGroup>
-                            <Footer.Link href="#">About</Footer.Link>
+                            <Footer.Link href="#">About us</Footer.Link>
                             <Footer.Link href="#">Contact</Footer.Link>
                         </Footer.LinkGroup>
                     </div>
