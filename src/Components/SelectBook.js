@@ -1,20 +1,8 @@
-import React from "react";
-import './App.css';
-import Navbardrk from "./Components/Navbardrk";
-import Footerdrk from "./Components/Footerdrk";
-import { Table } from 'flowbite-react';
+import React from 'react';
+import {Table} from "flowbite-react";
 
-function App() {
-  return (
-    <div className="App">
-        <Navbardrk/>
-        <img src="/Img/library.jpg" alt="Full Logo" style={{ width: '100%', height: '700px' }} />
-
-        <div style={{ textAlign: 'center', fontSize: '24px', padding: '16px', color: 'blue', fontWeight: 'bold', fontStyle: 'italic' }}>
-            | Available Books
-        </div>
-
-
+function SelectBook(props) {
+    return (
         <div className="overflow-x-auto" style={{ padding: '80px' }}>
             <Table hoverable >
                 <Table.Head>
@@ -63,10 +51,7 @@ function App() {
                 </Table.Body>
             </Table>
         </div>
-
-        <Footerdrk/>
-    </div>
-  );
+    );
 }
 
-export default App;
+export default SelectBook;
