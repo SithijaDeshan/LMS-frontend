@@ -12,6 +12,9 @@ import AdminPanal from "./Pages/admin_panal";
 import AdminPanalUser from "./Pages/admin_panal_user";
 import AdminPaneBooklending from "./Pages/admin_panel_booklending";
 import BookDescription from "./Pages/BookDescription";
+import Members from "./Pages/Members";
+import BookSelect from "./Pages/BookSelect";
+import MemberDetailsUpdate from "./Pages/MemberDetailsUpdate";
 
 const router = createBrowserRouter([
     {
@@ -38,6 +41,19 @@ const router = createBrowserRouter([
         path: "BookDescription",
         element: <BookDescription/>,
     },
+    {
+        path: "Members",
+        element: <Members/>,
+    },
+    {
+        path: "BookSelect",
+        element: <BookSelect/>,
+    },
+    {
+        path: "MemberDetailsUpdate",
+        element: <MemberDetailsUpdate/>,
+    },
+
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
