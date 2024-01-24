@@ -29,7 +29,7 @@ function SelectUser(props) {
                                 <Table.Cell>0769231013</Table.Cell>
                                 <Table.Cell>sdeshan</Table.Cell>
                                 <Table.Cell>
-                                    <Button color="success">Select User</Button>
+                                    <Button href="/BookSelect" color="success">Select User</Button>
                                 </Table.Cell>
                             </Table.Row>
 
@@ -41,7 +41,7 @@ function SelectUser(props) {
                                 <Table.Cell>0769231013</Table.Cell>
                                 <Table.Cell>sdeshan</Table.Cell>
                                 <Table.Cell>
-                                    <Button color="success">Select User</Button>
+                                    <Button href="/BookSelect" color="success">Select User</Button>
                                 </Table.Cell>
                             </Table.Row>
 
@@ -53,7 +53,7 @@ function SelectUser(props) {
                                 <Table.Cell>0769231013</Table.Cell>
                                 <Table.Cell>sdeshan</Table.Cell>
                                 <Table.Cell>
-                                    <Button color="success">Select User</Button>
+                                    <Button href="/BookSelect" color="success">Select User</Button>
                                 </Table.Cell>
                             </Table.Row>
 
@@ -65,7 +65,7 @@ function SelectUser(props) {
                                 <Table.Cell>0769231013</Table.Cell>
                                 <Table.Cell>sdeshan</Table.Cell>
                                 <Table.Cell>
-                                    <Button color="success">Select User</Button>
+                                    <Button href="/BookSelect" color="success">Select User</Button>
                                 </Table.Cell>
                             </Table.Row>
 
@@ -77,7 +77,7 @@ function SelectUser(props) {
                                 <Table.Cell>0769231013</Table.Cell>
                                 <Table.Cell>sdeshan</Table.Cell>
                                 <Table.Cell>
-                                    <Button color="success">Select User</Button>
+                                    <Button href="/BookSelect" color="success">Select User</Button>
                                 </Table.Cell>
                             </Table.Row>
 

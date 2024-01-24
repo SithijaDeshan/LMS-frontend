@@ -21,7 +21,7 @@ function SelectBook(props) {
                         <Table.Cell>Available</Table.Cell>
                         <Table.Cell>Adventure</Table.Cell>
                         <Table.Cell>
-                            <a href="#" className="font-medium text-cyan-600 hover:underline dark:text-cyan-500">
+                            <a href="/BookDescription" className="font-medium text-cyan-600 hover:underline dark:text-cyan-500">
                                 View
                             </a>
                         </Table.Cell>
@@ -33,7 +33,7 @@ function SelectBook(props) {
                         <Table.Cell>Available</Table.Cell>
                         <Table.Cell>Adventure</Table.Cell>
                         <Table.Cell>
-                            <a href="#" className="font-medium text-cyan-600 hover:underline dark:text-cyan-500">
+                            <a href="/BookDescription" className="font-medium text-cyan-600 hover:underline dark:text-cyan-500">
                                 View
                             </a>
                         </Table.Cell>
@@ -43,7 +43,7 @@ function SelectBook(props) {
                         <Table.Cell>Unavailable</Table.Cell>
                         <Table.Cell>Darama</Table.Cell>
                         <Table.Cell>
-                            <a href="#" className="font-medium text-cyan-600 hover:underline dark:text-cyan-500">
+                            <a href="/BookDescription" className="font-medium text-cyan-600 hover:underline dark:text-cyan-500">
                                 View
                             </a>
                         </Table.Cell>

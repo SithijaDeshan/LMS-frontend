@@ -32,7 +32,7 @@ function BookDescription(props) {
                 <Button outline gradientDuoTone="cyanToBlue">
                     Delete
                 </Button>
-                <Button outline gradientDuoTone="cyanToBlue">
+                <Button href="/admin_panel_booklending" outline gradientDuoTone="cyanToBlue">
                     Lend
                 </Button>
                 <Button outline gradientDuoTone="cyanToBlue">
