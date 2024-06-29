@@ -25,20 +25,6 @@ function BookDescription(props) {
                     <BookDetails/>
                 </div>
             </div>
-            <div style={{ display: 'flex', gap: '10px', padding: '50px 20px 50px 400px' }}>
-                <Button outline gradientDuoTone="cyanToBlue">
-                    Edit
-                </Button>
-                <Button outline gradientDuoTone="cyanToBlue">
-                    Delete
-                </Button>
-                <Button href="/admin_panel_booklending" outline gradientDuoTone="cyanToBlue">
-                    Lend
-                </Button>
-                <Button outline gradientDuoTone="cyanToBlue">
-                    Add
-                </Button>
-            </div>
             <Footerdrk />
         </div>
     );

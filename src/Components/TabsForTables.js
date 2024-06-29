@@ -12,7 +12,6 @@ function TabsForTables(props) {
             <Tabs aria-label="Default tabs" style="default">
                 <Tabs.Item active title="Users" icon={HiUserCircle}>
                     <div style={{textAlign : "center", padding:"20px"}}>
-                        <SearchBar/>
                     </div>
                     <SelectUser/>
                 </Tabs.Item>
